@@ -6,7 +6,7 @@ circular_linked_list = list(map(int,input().strip().split(" ")))
 actual_list = []
 
 value = 0
-while len(actual_list) < length_of_circular_linked_list and index < len(circular_linked_list):
+while len(actual_list) < length_of_circular_linked_list and value < len(circular_linked_list):
     element = circular_linked_list[index]
     if element not in actual_list:
         actual_list.append(element)
